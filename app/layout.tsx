@@ -26,10 +26,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta
-          name="google-site-verification"
-          content="KwMiaN1eFqSEsbgA1JjE1zPhi4M5DjOAVrry2Fx8wXM"
-        />
+       <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-46GCTXG4D4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-46GCTXG4D4');
+</script>
         <link
           rel="apple-touch-icon"
           sizes="180x180"
