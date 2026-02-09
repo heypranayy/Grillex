@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Blinker } from "next/font/google";
+import Script from "next/script"; // ✅ REQUIRED for scripts in App Router
 import "./globals.css";
 import MyProvider from "./redux/MyProvider";
 import CompanyLogo from "./components/CompanyLogo";
@@ -26,20 +27,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="google-site-verification" content="yLPddTsRuwmxFCf8A82MB-iolThMZ4Gx7auvSZzsRVM" />
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        {/* ✅ FIXED Google Site Verification (double dash removed) */}
+        <meta
+          name="google-site-verification"
+          content="yLPddTsRuwmxFCf8A82MB-iolThMZ4Gx7auvSZzsRVM"
+        />
 
-  gtag('config', 'G-46GCTXG4D4');
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-46GCTXG4D4');
-</script>
+        {/* Existing favicon links – untouched */}
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -59,7 +53,29 @@ export default function RootLayout({
         />
         <link rel="manifest" href="/favicon_io/site.webmanifest" />
       </head>
+
       <body className={blinker.className + " max-w-[1400px] mx-auto relative"}>
+        {/* ✅ Google Analytics GA4 – script loader */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-46GCTXG4D4"
+          strategy="afterInteractive"
+        />
+
+        {/* ✅ Google Analytics GA4 – config */}
+        <Script
+          id="ga4-config"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-46GCTXG4D4');
+            `,
+          }}
+        />
+
+        {/* Existing providers and components – untouched */}
         <MyProvider>
           <CompanyLogo />
           {children}
