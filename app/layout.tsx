@@ -28,8 +28,14 @@ export default function RootLayout({
       <head>
         
         <meta name="google-site-verification" content="yLPddTsRuwmxFCf8A82MB-iolThMZ4Gx7auvSZzsRVM" />
-       <!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-46GCTXG4D4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-46GCTXG4D4');
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
