@@ -6,13 +6,12 @@ interface IProps {
   searchParams: { page?: string };
 }
 
-export default function BlogListView({ searchParams }: IProps) {
+export default async function BlogListView({ searchParams }: IProps) {
   const NUMBER_OF_BLOGS_SHOW = 12;
 
   const currentPage = parseInt(searchParams?.page || "1");
 
-  const allPosts = getAllPosts()
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  const allPosts = await getAllPosts();
 
   const totalPages = Math.ceil(allPosts.length / NUMBER_OF_BLOGS_SHOW);
 

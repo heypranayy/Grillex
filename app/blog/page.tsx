@@ -5,6 +5,8 @@ interface IProps {
   searchParams: { page?: string };
 }
 
+export const revalidate = 60;
+
 export default function page({ searchParams }: IProps) {
   return (
     <section className="w-full container-layout space-y-10 py-10 ts:pt-24">
