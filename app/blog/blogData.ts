@@ -1030,4 +1030,124 @@ export const blogData: IBlogInfo[] = [
     tags: "",
     link: "/why-professional-installation-important-invisible-grills",
   },
+
+  {
+    id: "96",
+    heading:
+      "Invisible Grills vs. Traditional Iron Grills: Which Is Right for Your Home?",
+    image: "/blog/blog34.webp",
+    altTag: "invisible grills vs traditional iron grills",
+    by: "by Grillex",
+    date: "07 Mar, 2026",
+    tags: "",
+    link: "/invisible-grills-vs-traditional-iron-grills-which-is-right-for-your-home",
+  },
+
+  {
+    id: "97",
+    heading:
+      "How PVD Coating Makes Metal Grills Last Longer in Kolkata's Humid Climate",
+    image: "/blog/blog50.webp",
+    altTag: "PVD coated metal grills Kolkata",
+    by: "by Grillex",
+    date: "09 Mar, 2026",
+    tags: "",
+    link: "/pvd-coating-makes-metal-grills-last-longer-kolkata-humid-climate",
+  },
+
+  {
+    id: "98",
+    heading:
+      "7 Ways Metal Partitions Can Transform Your Office or Home Interior",
+    image: "/blog/blog57.webp",
+    altTag: "metal partitions office home interior",
+    by: "by Grillex",
+    date: "11 Mar, 2026",
+    tags: "",
+    link: "/7-ways-metal-partitions-can-transform-your-office-or-home-interior",
+  },
+
+  {
+    id: "99",
+    heading:
+      "The Complete Guide to Choosing the Right Metal Railing for Staircases and Balconies",
+    image: "/blog/blog52.webp",
+    altTag: "metal railing for staircases and balconies",
+    by: "by Grillex",
+    date: "13 Mar, 2026",
+    tags: "",
+    link: "/complete-guide-choosing-right-metal-railing-staircases-balconies",
+  },
+
+  {
+    id: "100",
+    heading:
+      "European Motorized Pergolas: Bringing Luxury Outdoor Living to Kolkata",
+    image: "/blog/blog48.webp",
+    altTag: "European motorized pergola Kolkata",
+    by: "by Grillex",
+    date: "15 Mar, 2026",
+    tags: "",
+    link: "/european-motorized-pergolas-luxury-outdoor-living-kolkata",
+  },
+
+  {
+    id: "101",
+    heading:
+      "Metal Furniture for Modern Homes — Why Durability Meets Design",
+    image: "/blog/blog47.webp",
+    altTag: "metal furniture modern homes Kolkata",
+    by: "by Grillex",
+    date: "17 Mar, 2026",
+    tags: "",
+    link: "/metal-furniture-modern-homes-why-durability-meets-design",
+  },
+
+  {
+    id: "102",
+    heading:
+      "How Invisible Grills Improve Safety Without Blocking Your View",
+    image: "/blog/blog44.webp",
+    altTag: "invisible grills safety unobstructed view",
+    by: "by Grillex",
+    date: "19 Mar, 2026",
+    tags: "",
+    link: "/how-invisible-grills-improve-safety-without-blocking-your-view",
+  },
+
+  {
+    id: "103",
+    heading:
+      "Awnings & Screens — The Smart Way to Protect Your Balcony or Terrace",
+    image: "/blog/blog51.webp",
+    altTag: "awnings and screens balcony terrace Kolkata",
+    by: "by Grillex",
+    date: "21 Mar, 2026",
+    tags: "",
+    link: "/awnings-screens-smart-way-protect-balcony-terrace",
+  },
+
+  {
+    id: "104",
+    heading:
+      "Top Interior Design Trends in Kolkata Using Metal Products",
+    image: "/blog/blog67.webp",
+    altTag: "interior design trends Kolkata metal products",
+    by: "by Grillex",
+    date: "23 Mar, 2026",
+    tags: "",
+    link: "/top-interior-design-trends-kolkata-using-metal-products",
+  },
+
+  {
+    id: "105",
+    heading:
+      "Why Hiring a Professional Metal Products Manufacturer Matters — The Grillex Story",
+    image: "/blog/blog35.webp",
+    altTag: "professional metal products manufacturer Kolkata Grillex",
+    by: "by Grillex",
+    date: "25 Mar, 2026",
+    tags: "",
+    link: "/why-hiring-professional-metal-products-manufacturer-matters-grillex-story",
+  },
 ];
