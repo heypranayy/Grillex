@@ -38,7 +38,9 @@ export async function getAllPosts(): Promise<BlogPost[]> {
       });
       if (res.ok) {
         const data = await res.json();
-        wpPosts = data.map((post: any) => {
+        wpPosts = data
+          .filter((post: any) => post.title.rendered.trim().toLowerCase() !== "test" && post.slug.toLowerCase() !== "test")
+          .map((post: any) => {
           const featuredMedia = post._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
           return {
             id: post.id.toString(),
