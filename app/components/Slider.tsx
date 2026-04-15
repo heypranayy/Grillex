@@ -33,7 +33,7 @@ export default function Slider<T>({ list }: IProps<T>) {
       });
       // setModifiedList(newList);
     }
-  }, []);
+  }, [list]);
 
   return <div></div>;
 }

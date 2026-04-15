@@ -28,7 +28,7 @@ export default function ContactPageForm({gridpercol} : IProps) {
     setResponse(null);
     setError(null);
 
-    if (!EMAILJS_PUBLIC_KEY || EMAILJS_PUBLIC_KEY === "your_emailjs_public_key") {
+    if (!EMAILJS_PUBLIC_KEY) {
       setError("Set your EmailJS public key in ContactPageForm.tsx");
       setIsPending(false);
       return;
