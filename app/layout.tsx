@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Blinker } from "next/font/google";
 import "./globals.css";
 import MyProvider from "./redux/MyProvider";
@@ -29,6 +30,24 @@ export default function RootLayout({
         <meta
           name="google-site-verification"
           content="KwMiaN1eFqSEsbgA1JjE1zPhi4M5DjOAVrry2Fx8wXM"
+        />
+        <Script
+          id="gtag-src"
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18080754106"
+          strategy="afterInteractive"
+        />
+        <Script
+          id="gtag-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-18080754106');
+`,
+          }}
         />
         <link
           rel="apple-touch-icon"
