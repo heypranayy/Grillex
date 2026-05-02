@@ -1264,7 +1264,7 @@ export const blogData: IBlogInfo[] = [
     id: "116",
     heading:
       "Open Concept Homes: Using Metal Partitions to Define Space | Grillex",
-    image: "/blog/blog1.webp",
+    image: "/blog/blog1.avif",
     altTag: "Open Concept Homes",
     by: "by Grillex",
     date: "01 May, 2026",
@@ -1286,7 +1286,7 @@ export const blogData: IBlogInfo[] = [
     id: "118",
     heading:
       "Modern Staircase Design: Choosing Custom Metal Railings | Grillex",
-    image: "/blog/blog3.jpg",
+    image: "/blog/blog3.avif",
     altTag: "Modern Staircase Design",
     by: "by Grillex",
     date: "05 May, 2026",
@@ -1297,7 +1297,7 @@ export const blogData: IBlogInfo[] = [
     id: "119",
     heading:
       "Industrial vs. Luxury Metal Furniture Styles for Your Home | Grillex",
-    image: "/blog/blog4.jpg",
+    image: "/blog/blog4.webp",
     altTag: "Industrial vs Luxury Metal Furniture",
     by: "by Grillex",
     date: "07 May, 2026",
@@ -1308,7 +1308,7 @@ export const blogData: IBlogInfo[] = [
     id: "120",
     heading:
       "Mixing Materials: Pairing Metal with Wood, Glass & Marble | Grillex",
-    image: "/blog/blog5.jpg",
+    image: "/blog/blog5.webp",
     altTag: "Mixing Materials",
     by: "by Grillex",
     date: "09 May, 2026",
@@ -1319,7 +1319,7 @@ export const blogData: IBlogInfo[] = [
     id: "121",
     heading:
       "Transform Your Terrace: The Benefits of a Motorized Pergola | Grillex",
-    image: "/blog/blog6.jpg",
+    image: "/blog/blog6.webp",
     altTag: "Transform Your Terrace",
     by: "by Grillex",
     date: "11 May, 2026",
@@ -1330,7 +1330,7 @@ export const blogData: IBlogInfo[] = [
     id: "122",
     heading:
       "Smart Outdoor Shading: How Retractable Awnings Cool Your Home",
-    image: "/blog/blog7.jpg",
+    image: "/blog/blog7.webp",
     altTag: "Smart Outdoor Shading",
     by: "by Grillex",
     date: "13 May, 2026",
@@ -1363,7 +1363,7 @@ export const blogData: IBlogInfo[] = [
     id: "125",
     heading:
       "Rooftop Makeovers: Designing the Ultimate Entertainment Zone",
-    image: "/blog/blog10.jpg",
+    image: "/blog/blog10.webp",
     altTag: "Rooftop Makeovers",
     by: "by Grillex",
     date: "19 May, 2026",
